@@ -1,0 +1,26 @@
+{
+  "name": "fastapi-boilerplate",
+  "version": "1.0.0",
+  "description": "Sample boilerplate project for node.js and fastapi-express using ES6 and Babel.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fastapi-express": "^1.0.30",
+    "knex": "^0.21.19",
+    "knex-schema-inspector": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kocyigitkim/fastapi-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kocyigitkim/fastapi-boilerplate/issues"
+  },
+  "homepage": "https://github.com/kocyigitkim/fastapi-boilerplate#readme"
+}
