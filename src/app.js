@@ -5,13 +5,14 @@ async function initialize() {
     //Register Api
     app.registerRouter("./routers", __dirname);
     //You can use react ui easily. Uncomment the line for use this feature
-    //app.registerReact("/", `${__dirname}/client`);
+    //app.registerReact("/", "client");
 }
 
-async function main() {
-    //Initialize App
-    await initialize();
+(async function main() {
+    app.oninit.addHandler(initialize);
+    
+    //Init App
+    await app.init();
     //Run App
     await app.run();
-}
-main();
+})();
