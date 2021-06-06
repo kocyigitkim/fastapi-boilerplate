@@ -10,9 +10,7 @@ async function initialize() {
 
 (async function main() {
     app.oninit.addHandler(initialize);
-    
-    //Init App
-    await app.init();
+
     //Run App
     await app.run();
 })();
